@@ -20,9 +20,9 @@
     <h3>조혤아의 PHP CRUD</h3>
     <ul>
         <a href="create.html"><li>CREATE</li></a>
-        <a href=""><li>READ</li></a>
-        <a href="update_form"><li>UPDATE</li></a>
-        <a href=""><li>DELETE</li></a>
+        <a href="read.php"><li>READ</li></a>
+        <a href="update_form.php"><li>UPDATE</li></a>
+        <a href="delete_form.php"><li>DELETE</li></a>
     </ul>
 </body>
 </html>

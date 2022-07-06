@@ -18,8 +18,15 @@ $result = mysqli_query($conn, $sql);
         document.getElementById("update_react").value = react;
       }
     </script>
+    <style>
+        a {
+            text-decoration: none;
+            color : #000;
+        }
+    </style>  
   </head>
   <body>
+    <a href="index.php"><span>이전</span></a>
     <div>
       <table border="1" style="margin : 0 auto;">
         <tr style="background-color:#D8D8D8; text-align : center;">
