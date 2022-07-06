@@ -21,7 +21,7 @@
     <ul>
         <a href="create.html"><li>CREATE</li></a>
         <a href=""><li>READ</li></a>
-        <a href=""><li>UPDATE</li></a>
+        <a href="update_form"><li>UPDATE</li></a>
         <a href=""><li>DELETE</li></a>
     </ul>
 </body>

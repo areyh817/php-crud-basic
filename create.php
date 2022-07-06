@@ -13,6 +13,6 @@ $sql="insert into score(name,java,spring,db,react)values('$name','$java','$sprin
 mysqli_query($conn,$sql);
 mysqli_close($conn);
 
-echo("<script>location.href='index.html'; alert('CREATE 완료');</script>"); 
+echo("<script>location.href='index.php'; alert('CREATE 완료');</script>"); 
 
 ?>

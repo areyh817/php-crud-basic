@@ -68,63 +68,33 @@ $result = mysqli_query($conn, $sql);
       ?>
       </table>
     </div>  <!-- table div-->
-    <div style="border : 1px solid black; width : 350px; height : 180px; margin : 0 auto; margin-top:30px">
-            <form class="" action="delete.php" method="post">
-            <table style="margin : 0 auto">
-                <tr>
-                    <tr>
-                        <td>이름</td>
-                        <td><input type="text" name="name" placeholder="이름입력" style="width:100px"></td>
-                    </tr>
-                    <tr>
-                        <td>Java</td>
-                        <td><input type="text" name="java" placeholder="성적입력" style="width:100px"></td>
-                    </tr>
-                    <tr>
-                        <td>Spring</td>
-                        <td><input type="text" name="spring" placeholder="성적입력" style="width:100px"></td>
-                    </tr>
-                    <tr>
-                        <td>SQL</td>
-                        <td><input type="text" name="db" placeholder="성적입력" style="width:100px"></td>
-                    </tr>
-                    <tr>
-                        <td>React</td>
-                        <td><input type="text" name="react" placeholder="성적입력" style="width:100px"></td>
-                    </tr>
-                </tr>
-            </table>
-              <div style="text-align : center;">
-                <input type="submit" value="성적수정">
-              </div>
-            </form> <!-- form -->
-          </div> <!-- grade update div -->
-        </td> <!-- grade update td -->
-      </tr>
+
     </table><!-- create update table -->
         <div style="border : 1px solid black; width : 350px; height : 180px; margin : 0 auto; margin-top:10px">
-          <form class="" action="./process/process_update.php" method="post">
+          <form class="" action="update.php" method="post">
           <table style="margin : 0 auto">
               <tr>
+                <caption>성적 수정</caption>
+                <input type="hidden" name="id" id="update_id" value=""/>
                   <tr>
                       <td>이름</td>
-                      <td><input type="text" name="name" placeholder="이름입력" style="width:100px"></td>
+                      <td><input type="text" name="name" placeholder="이름입력" style="width:100px" id="update_name" value=""></td>
                   </tr>
                   <tr>
                       <td>Java</td>
-                      <td><input type="text" name="java" placeholder="성적입력" style="width:100px"></td>
+                      <td><input type="text" name="java" placeholder="성적입력" style="width:100px" id="update_java" value=""></td>
                   </tr>
                   <tr>
                       <td>Spring</td>
-                      <td><input type="text" name="spring" placeholder="성적입력" style="width:100px"></td>
+                      <td><input type="text" name="spring" placeholder="성적입력" style="width:100px" id="update_spring" value=""></td>
                   </tr>
                   <tr>
                       <td>SQL</td>
-                      <td><input type="text" name="db" placeholder="성적입력" style="width:100px"></td>
+                      <td><input type="text" name="db" placeholder="성적입력" style="width:100px" id="update_db" value=""></td>
                   </tr>
                   <tr>
                       <td>React</td>
-                      <td><input type="text" name="react" placeholder="성적입력" style="width:100px"></td>
+                      <td><input type="text" name="react" placeholder="성적입력" style="width:100px" id="update_react" value=""></td>
                   </tr>
               </tr>
           </table>
