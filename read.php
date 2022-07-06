@@ -30,6 +30,7 @@ $result = mysqli_query($conn, $sql);
           <td style="width : 70px;">React</td>
           <td style="width : 50px;">수정</td>
           <td style="width : 50px;">삭제</td>
+          <td style="width : 50px;">추가</td>
         </tr>
       <?php
         while ($row = mysqli_fetch_array($result)) {
@@ -57,6 +58,9 @@ $result = mysqli_query($conn, $sql);
               <input type="hidden" name="id" value="<?=$filtered['id']?>">
               <input type="submit" value="삭제">
             </form>
+          </td>
+          <td>
+            <input type="submit" value="추가" onClick="localhot">
           </td>
         </tr>
       <?php
