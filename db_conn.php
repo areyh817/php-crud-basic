@@ -1,5 +1,5 @@
 <?php
-$conn=mysqli_connect('localhost','root','111111','crud');
+$conn=mysqli_connect('localhost','root','******','crud');
 if($conn){
    // echo "mysql database에 연결되었습니다";
 }else{
